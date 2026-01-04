@@ -24,13 +24,13 @@ This project covers the complete lifecycle:
 
 ├── app.py                                   
 ├── templates/                             
-│   └── index.html                            
-├── requirements.txt        # Python dependencies  
+│       └── index.html                            
+├── requirements.txt                     
 ├── Dockerfile                        
 ├── .dockerignore                      
 ├── .github/                            
-│    └── workflows/                        
-│        └── docker.yml                     
+│         └── workflows/                        
+│                 └── docker.yml                     
 ├── .gitignore                                
 └── README.md                               
 
@@ -59,10 +59,10 @@ cd Python-flask-CI
 
 Create a Docker Hub access token and add the following GitHub Secrets:
 
-### Secret Name	              Description
+**Secret Name	                 Description **
 
-DOCKER_USERNAME	          Docker Hub username              
-DOCKER_PASSWORD	          Docker Hub access token
+DOCKER_USERNAME	                  Docker Hub username              
+DOCKER_PASSWORD	                  Docker Hub access token
 
 
 3️⃣ Push Code to Trigger CI
@@ -75,6 +75,7 @@ No manual Docker commands are required.
 
 Karan
 DevOps Engineer
+
 
 
 
