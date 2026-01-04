@@ -19,7 +19,9 @@ This project covers the complete lifecycle:
 - Image Registry: Docker Hub
 
 ## 🧱 Project Structure
+
 **Python-flask-CI/**
+
 │── app.py
 │── requirements.txt
 │── Dockerfile
@@ -49,8 +51,11 @@ cd Python-flask-CI
 ```
 
 2️⃣ Configure Docker Hub Credentials
+
 Create a Docker Hub access token and add the following GitHub Secrets:
-###Secret Name	              Description
+
+### Secret Name	              Description
+
 DOCKER_USERNAME	          Docker Hub username
 DOCKER_PASSWORD	          Docker Hub access token
 
@@ -65,6 +70,7 @@ No manual Docker commands are required.
 
 Karan
 DevOps Engineer
+
 
 
 
