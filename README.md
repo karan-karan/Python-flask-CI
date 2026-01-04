@@ -1,5 +1,5 @@
-This repository demonstrates a Docker-based CI/CD workflow for a Flask application using GitHub Actions.
-It focuses on containerization, automated image delivery, and secure credential management, following practices commonly used in real-world DevOps environments.
+This repository demonstrates a **Docker-based CI pipeline** for a Flask application using **GitHub Actions**.
+It focuses on containerization, automated image delivery, secure credential management,and secure image delivery to Docker Hub following practices commonly used in real-world DevOps environments.
 
 ## 🚀 Features
 This project covers the complete lifecycle:
@@ -22,15 +22,20 @@ This project covers the complete lifecycle:
 
 **Python-flask-CI/**
 
-│── app.py
-│── requirements.txt
-│── Dockerfile
-│── .dockerignore
-│── .gitignore
-│── .github/
-│ └── workflows/
-│     └── docker.yml
-└──  README.md
+├── app.py                                   
+├── templates/                             
+│   └── index.html                            
+├── requirements.txt        # Python dependencies  
+├── Dockerfile                        
+├── .dockerignore                      
+├── .github/                            
+│    └── workflows/                        
+│        └── docker.yml                     
+├── .gitignore                                
+└── README.md                               
+
+
+
 
 ## 🔄 CI/CD Flow
 
@@ -56,7 +61,7 @@ Create a Docker Hub access token and add the following GitHub Secrets:
 
 ### Secret Name	              Description
 
-DOCKER_USERNAME	          Docker Hub username
+DOCKER_USERNAME	          Docker Hub username              
 DOCKER_PASSWORD	          Docker Hub access token
 
 
@@ -70,6 +75,7 @@ No manual Docker commands are required.
 
 Karan
 DevOps Engineer
+
 
 
 
